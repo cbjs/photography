@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8"/>
+	<title></title>
+	<link rel="stylesheet" href="css/main.css" type="text/css"/>
+	<script>
+		function testClassName(){
+			var div=document.getElementById("divId");
+			console.log("className:"+div.className);
+		}
+
+		function test()
+		{
+			testClassName();
+		}
+
+		window.onload=test;
+	</script>
+    <head>
+    
+    <body>
+	<div id="divId" class="abc cde 124"></div>
+	this is a template file.
+    </body>
+</html>
